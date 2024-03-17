@@ -736,6 +736,10 @@ INSERT INTO `playercreateinfo_action` VALUES
 (11,11,0,5176,0),
 (11,11,1,5185,0);
 
+-- skillraceclassinfo_dbc
+INSERT INTO `skillraceclassinfo_dbc` VALUES
+(1,46,0,4,0,1,6,0);
+	
 -- playercreateinfo_spell_custom
 
 INSERT IGNORE INTO `playercreateinfo_spell_custom` VALUES
