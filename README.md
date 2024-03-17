@@ -4,7 +4,7 @@
 
 Azerothcore Build e0bc7d73ddaa 2024-03-14
 
-This branch adds the following:
+This fork adds the following:
 + appropriate class eqquipment to new race-class combos
 + adds Hearthstone to new race-class combos
 + cleaned the abilities on the action bars, such as removing duplicate racial abilities
