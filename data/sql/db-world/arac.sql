@@ -103,7 +103,7 @@ INSERT IGNORE INTO `playercreateinfo` VALUES
 (11, 11, 530, 3526, -3961.64, -13931.2, 100.615, 2.08364);
 
 -- playercreateinfo_item
-
+TRUNCATE TABLE playercreateinfo_item;
 INSERT INTO `playercreateinfo_item` VALUES 
 (0,6,40582,-1,'[TDB PH] - unsused Scourgestone'),
 (1,3,129,1,'[Hunter] Rugged Trapper\'s Boots'),
@@ -307,8 +307,8 @@ INSERT INTO `playercreateinfo_item` VALUES
 (11,11,6124,1,'[Druid] Novice\'s Pants'),
 (11,11,6948,1,'[Druid] Hearthstone');
 	
----- playercreateinfo_action
-
+-- playercreateinfo_action
+TRUNCATE TABLE playercreateinfo_action;
 INSERT INTO `playercreateinfo_action` VALUES 
 (1,1,0,6603,0),
 (1,1,72,6603,0),
