@@ -19,10 +19,10 @@ Note: Orc, Blood Elf, and Draenei racial traits and abilities on new class-race 
 ![arac](https://raw.githubusercontent.com/azerothcore/mod-arac/master/images/screen2.png)
 
 
-# Usage
+# Usage 
 
 - Make a backup of your database before using this module.
-- Apply [the SQL query](https://github.com/may-ruz/mod-arac/edit/master/data/sql/db-world/arac.sql) to your `world` database.
+- Apply [the SQL query](https://github.com/may-ruz/mod-arac/blob/master/data/sql/db-world/arac.sql) to your `world` database.
 - Update your DBC files (client and server) contained in the release, so add [**Patch-A.MPQ**](https://github.com/heyitsbench/mod-arac/blob/master/Patch-A.MPQ) to your WoW/Data/ directory and update the DBC files in your server/data/dbc/ directory with the ones contained in [the DBFilesContent directory](https://github.com/heyitsbench/mod-arac/tree/master/patch-contents/DBFilesContent).
 
 # Need help?
